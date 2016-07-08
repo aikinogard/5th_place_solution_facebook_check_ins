@@ -2,6 +2,18 @@
 
 My solution rank 5th/1212 in Facebook check ins prediction competition at Kaggle
 
+## Instruction
+
+* First download data from [Kaggle](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data) into `data` folder
+* run `split.py` in `data` folder to split validation set.
+* run each model in `single_model`. Just run `python model.py [config_name in models.config]`
+    * `valid_mode_on=True` for validation mode, which provide you local validation score on the middle 1/100 data.
+    * `valid_mode_on=False` for prediction mode, which run on the whole dataset and does not return local validation score.
+* `ensemble` folder provides code for ensemble. Just run `python ensemble.py [config_name in ensembles.config]`.
+    * Validation mode and prediction mode are also available like in single model.
+    * (optional) `ensemble_add.py` and `ensemble_remove.py` test the ensmeble combination by adding or removing one single model.
+    * (optional) `ensemble_bayes.py` use bayes optimization to find the optimal soft-voting weight.
+
 -----------
 This is an amazing competition and thank all the discussion and scripts made by fellow kaggler. I joined two weeks before the end of this competition. The main reason for me to start this competition is because:
 
