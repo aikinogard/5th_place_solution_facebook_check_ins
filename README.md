@@ -1,5 +1,7 @@
 # 5th_place_solution_facebook_check_ins
+
 My solution rank 5th/1212 in Facebook check ins prediction competition at Kaggle
+
 -----------
 This is an amazing competition and thank all the discussion and scripts made by fellow kaggler. I joined two weeks before the end of this competition. The main reason for me to start this competition is because:
 
