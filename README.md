@@ -4,7 +4,7 @@ My solution rank 5th/1212 in Facebook check ins prediction competition at Kaggle
 
 ## Instruction
 
-* First download data from [Kaggle](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data) into `data` folder
+* first download data from [Kaggle](https://www.kaggle.com/c/facebook-v-predicting-check-ins/data) into `data` folder
 * run `split.py` in `data` folder to split validation set.
 * run each model in `single_model`. Just run `python model.py [config_name in models.config]`
     * `valid_mode_on=True` for validation mode, which provide you local validation score on the middle 1/100 data.
